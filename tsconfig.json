@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "removeComments": true,
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "sourceMap": true,
         "lib" : ["ES2020", "DOM"],
