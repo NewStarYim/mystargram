@@ -1,3 +1,4 @@
+import CampCardIndex from '@layouts/CampCardIndex';
 import loadable from '@loadable/component';
 import React from 'react';
 import {Main, CampContent} from './style';
@@ -7,8 +8,7 @@ const CampMain = () => {
     return (
         <Main>
             <CampMainHeadLine />
-            <CampContent>
-            </CampContent>
+            <CampCardIndex />
         </Main>
     )
 };

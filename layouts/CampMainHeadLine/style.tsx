@@ -16,8 +16,8 @@ export const CampInner = styled.div`
     width : 95vw;
     height : auto;
     ${mq(Breakpoints.lg)} {
-        max-width : 900px;
+        max-width : 960px;
         max-height : 45vh;
-        width : 900px;
+        width : 960px;
     };
 `;  
